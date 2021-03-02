@@ -14,7 +14,7 @@ export default {
     url:
       process.env.NODE_ENV === 'production'
         ? process.env.URL || 'http://createADotEnvFileAndSetURL'
-        : 'http://localhost:3000',
+        : 'http://localhost:7070',
     lang: SITE_INFO.sitelang || 'en-US'
   },
   /*

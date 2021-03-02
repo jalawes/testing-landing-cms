@@ -1,8 +1,8 @@
 {
-  "name": "ntn-boilerplate",
+  "name": "generic-bird",
   "version": "2.0.0",
-  "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <sven@svenparker.com> (https://svenparker.com)",
+  "description": "Generic Bird Landing Page & Blog",
+  "author": "Jamal Alawes <jamal@jamalalawes.dev> (https://www.jamalalawes.dev)",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/knogobert/ntn-boilerplate#readme"
+    "url": "https://github.com/jalawes/testing-landing-cms"
   },
   "license": "MIT",
   "dependencies": {
