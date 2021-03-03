@@ -14,7 +14,9 @@
       <h3 class="text-primary-600 dark:text-primary-400 max-w-5xl mx-auto">Example Form</h3>
       <form netlify @submit.prevent="sendForm" name="example-form" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="example-form">
-        <div data-netlify-recaptcha="true" />
+        <div class="container mx-auto max-w-2xl">
+          <div data-netlify-recaptcha="true" />
+        </div>
         <section class="text-gray-600 body-font relative">
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
